@@ -8,6 +8,24 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      'bleu-de-france': '#3182CE',  
+      bordeaux: '#9E2A2F',          
+      vermeil: '#E5A4B7',           
+      'bleu-marine': '#1D2A3A',     
+      'gris-perle': '#D1D5DB',      
+      rouge: '#D32F2F',             
+      'jaune-moutarde': '#F1C40F',  
+      'rose-poudre': '#F6D0D7',     
+      'vert-cedre': '#4A5D23',      
+      'blanc-casse': '#F1F1F1',     
+      taupe: '#7E6C5B',             
+      lavande: '#B39DDB',           
+      moutarde: '#E1A95F',          
+      ecru: '#D6C7B1',              
+      noir: '#000000',              
+      ciel: '#87CEEB',              
+    },
     /** 1.333 scale */
     fontSize: {
       1: "7.47rem",
@@ -31,13 +49,6 @@ export default {
     },
     transitionTimingFunction: {
       default: "ease",
-    },
-    colors: {
-      transparent: "transparent",
-      current: "currentColor",
-      inherit: "inherit",
-      white: "#ffffff",
-      black: "#000000",
     },
     extend: {
       screens: {
