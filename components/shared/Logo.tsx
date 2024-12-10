@@ -4,7 +4,7 @@ const Logo = ({
   name,
   href,
 }: {
-  name: "logo-github" | "logo-xing" | "logo-linkedin";
+  name: "logo-github" | "logo-xing" | "logo-linkedin" | "logo-mail";
   href: string;
 }) => {
   return (

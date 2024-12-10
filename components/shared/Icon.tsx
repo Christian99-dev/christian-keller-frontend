@@ -1,6 +1,16 @@
-export default function Icon({ name }: { name: string }) {
+export default function Icon({
+  name,
+  size = "regular",
+}: {
+  name: string;
+  size?: "regular" | "logo";
+}) {
   return (
-    <span className={`material-symbols-outlined h-min w-min text-7 text-black`}>
+    <span
+      className={`material-symbols-outlined h-min w-min ${
+        size === "logo" ? "text-6" : "text-5"
+      } text-black`}
+    >
       {name}
     </span>
   );
