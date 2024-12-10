@@ -1,4 +1,5 @@
-import Icon from "@/components/Icon";
+import Icon from "@/components/shared/Icon";
+import Logo from "@/components/shared/Logo";
 
 export default function Theme() {
   const colClass = "flex flex-col items-center";
@@ -15,8 +16,12 @@ export default function Theme() {
         <p className="text-10">fs-10</p>
       </div>
       <div className={colClass}>
-        <Icon name="search" size="small" />
-        <Icon name="search" size="medium" />
+        <Icon name="search" />
+      </div>
+      <div className={colClass}>
+        <Logo href="#" name="logo-github" />
+        <Logo href="#" name="logo-xing" />
+        <Logo href="#" name="logo-linkedin" />
       </div>
       <div className={colClass}>
         <div className="grid grid-cols-4 gap-4">
