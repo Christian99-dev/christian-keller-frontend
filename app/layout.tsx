@@ -6,17 +6,32 @@ import "@/theme/icons.css";
 const roboto = localFont({
   src: [
     {
-      path: "../fonts/roboto-v32-latin-300.ttf",
+      path: "../fonts/Roboto-100.ttf",
+      weight: "100",
+      style: "normal",
+    },
+    {
+      path: "../fonts/Roboto-300.ttf",
       weight: "300",
       style: "normal",
     },
     {
-      path: "../fonts/roboto-v32-latin-600.ttf",
-      weight: "600",
+      path: "../fonts/Roboto-400.ttf",
+      weight: "400",
       style: "normal",
     },
     {
-      path: "../fonts/roboto-v32-latin-900.ttf",
+      path: "../fonts/Roboto-500.ttf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../fonts/Roboto-700.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../fonts/Roboto-900.ttf",
       weight: "900",
       style: "normal",
     },

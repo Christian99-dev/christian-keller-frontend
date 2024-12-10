@@ -39,11 +39,6 @@ export default {
       9: "0.75rem",
       10: "0.563rem",
     },
-    fontWeight: {
-      thin: "300",
-      bold: "600",
-      black: "900",
-    },
     transitionDuration: {
       default: "0.2s",
     },
