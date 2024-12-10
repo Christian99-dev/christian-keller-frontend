@@ -1,13 +1,17 @@
+import Background from "@/components/home/Background";
 import Icon from "@/components/shared/Icon";
 import Logo from "@/components/shared/Logo";
 
 export default function Home() {
   return (
     <div className="flex justify-center items-center w-full flex-col">
+      {/** Background */}
+      <Background />
+
       {/** Main Section */}
       <div
         id="primary"
-        className="flex px-10 flex-col lg:flex-row lg:gap-10 gap-0 text-center justify-center lg:text-left items-center relative h-screen w-full"
+        className="flex px-10 flex-col lg:flex-row lg:gap-10 gap-0 text-center justify-center lg:text-left items-center relative h-screen w-full z-20"
       >
         {/** Image */}
         <img src="/img/me.png" className="w-[23rem]"></img>
@@ -26,9 +30,18 @@ export default function Home() {
             auseinander.
           </p>
           <div className="flex gap-2 justify-center lg:justify-normal">
-            <Logo href="https://github.com/Christian99-dev" name="logo-github" />
-            <Logo href="https://www.xing.com/profile/Christian_Keller024727" name="logo-xing" />
-            <Logo href="https://www.linkedin.com/in/christian-keller-1768021a2/" name="logo-linkedin" />
+            <Logo
+              href="https://github.com/Christian99-dev"
+              name="logo-github"
+            />
+            <Logo
+              href="https://www.xing.com/profile/Christian_Keller024727"
+              name="logo-xing"
+            />
+            <Logo
+              href="https://www.linkedin.com/in/christian-keller-1768021a2/"
+              name="logo-linkedin"
+            />
             <Logo href="mailto:k.christian9@web.de" name="logo-mail" />
           </div>
         </div>
@@ -40,7 +53,8 @@ export default function Home() {
         </a>
       </div>
 
-      <div id="secoundary" className="h-screen w-full relative">
+      {/** Primary Section */}
+      <div id="secoundary" className="h-screen w-full relative z-20">
         {/** Down arrow */}
         <a className="absolute top-10 text-center w-full" href="#primary">
           <Icon name="arrow_upward" />

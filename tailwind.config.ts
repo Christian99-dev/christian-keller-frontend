@@ -8,24 +8,6 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {
-      'bleu-de-france': '#3182CE',  
-      bordeaux: '#9E2A2F',          
-      vermeil: '#E5A4B7',           
-      'bleu-marine': '#1D2A3A',     
-      'gris-perle': '#D1D5DB',      
-      rouge: '#D32F2F',             
-      'jaune-moutarde': '#F1C40F',  
-      'rose-poudre': '#F6D0D7',     
-      'vert-cedre': '#4A5D23',      
-      'blanc-casse': '#F1F1F1',     
-      taupe: '#7E6C5B',             
-      lavande: '#B39DDB',           
-      moutarde: '#E1A95F',          
-      ecru: '#D6C7B1',              
-      noir: '#000000',              
-      ciel: '#87CEEB',              
-    },
     /** 1.333 scale */
     fontSize: {
       1: "7.47rem",
@@ -53,6 +35,30 @@ export default {
         xl: "1281px",
         "2xl": "1681px",
       },
+      keyframes: {
+        moveInCircle: {
+          '0%': { transform: 'rotate(0deg)' },
+          '50%': { transform: 'rotate(180deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+        moveVertical: {
+          '0%': { transform: 'translateY(-50%)' },
+          '50%': { transform: 'translateY(50%)' },
+          '100%': { transform: 'translateY(-50%)' },
+        },
+        moveHorizontal: {
+          '0%': { transform: 'translateX(-50%) translateY(-10%)' },
+          '50%': { transform: 'translateX(50%) translateY(10%)' },
+          '100%': { transform: 'translateX(-50%) translateY(-10%)' },
+        },
+      },
+      animation: {
+        moveVertical: 'moveVertical 30s ease infinite',
+        moveHorizontal: 'moveHorizontal 40s ease infinite',
+        moveInCircleLong: 'moveInCircle 40s linear infinite',  
+        moveInCircleFast: 'moveInCircle 20s linear infinite',  
+      },
+  
     },
   },
   plugins: [
