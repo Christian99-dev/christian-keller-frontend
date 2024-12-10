@@ -37,28 +37,32 @@ export default {
       },
       keyframes: {
         moveInCircle: {
-          '0%': { transform: 'rotate(0deg)' },
-          '50%': { transform: 'rotate(180deg)' },
-          '100%': { transform: 'rotate(360deg)' },
+          "0%": { transform: "rotate(0deg)" },
+          "50%": { transform: "rotate(180deg)" },
+          "100%": { transform: "rotate(360deg)" },
         },
         moveVertical: {
-          '0%': { transform: 'translateY(-50%)' },
-          '50%': { transform: 'translateY(50%)' },
-          '100%': { transform: 'translateY(-50%)' },
+          "0%": { transform: "translateY(-50%)" },
+          "50%": { transform: "translateY(50%)" },
+          "100%": { transform: "translateY(-50%)" },
         },
         moveHorizontal: {
-          '0%': { transform: 'translateX(-50%) translateY(-10%)' },
-          '50%': { transform: 'translateX(50%) translateY(10%)' },
-          '100%': { transform: 'translateX(-50%) translateY(-10%)' },
+          "0%": { transform: "translateX(-50%) translateY(-10%)" },
+          "50%": { transform: "translateX(50%) translateY(10%)" },
+          "100%": { transform: "translateX(-50%) translateY(-10%)" },
+        },
+        fadeInUp: {
+          "0%": { opacity: "0", transform: "translateY(20px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
         },
       },
       animation: {
-        moveVertical: 'moveVertical 30s ease infinite',
-        moveHorizontal: 'moveHorizontal 40s ease infinite',
-        moveInCircleLong: 'moveInCircle 40s linear infinite',  
-        moveInCircleFast: 'moveInCircle 20s linear infinite',  
+        moveVertical: "moveVertical 30s ease infinite",
+        moveHorizontal: "moveHorizontal 40s ease infinite",
+        moveInCircleLong: "moveInCircle 40s linear infinite",
+        moveInCircleFast: "moveInCircle 20s linear infinite",
+        fadeInUp: "fadeInUp 0.8s ease forwards",
       },
-  
     },
   },
   plugins: [

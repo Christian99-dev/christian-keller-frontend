@@ -33,21 +33,28 @@ export default function Home() {
             <Logo
               href="https://github.com/Christian99-dev"
               name="logo-github"
+              className="animate-fadeInUp opacity-0 [animation-delay:_0.1s]"
             />
             <Logo
               href="https://www.xing.com/profile/Christian_Keller024727"
               name="logo-xing"
+              className="animate-fadeInUp opacity-0 [animation-delay:_0.2s]"
             />
             <Logo
               href="https://www.linkedin.com/in/christian-keller-1768021a2/"
               name="logo-linkedin"
+              className="animate-fadeInUp opacity-0 [animation-delay:_0.3s]"
             />
-            <Logo href="mailto:k.christian9@web.de" name="logo-mail" />
+            <Logo
+              href="mailto:k.christian9@web.de"
+              name="logo-mail"
+              className="animate-fadeInUp opacity-0 [animation-delay:_0.4s]"
+            />
           </div>
         </div>
 
         {/** Down arrow */}
-        <a className="absolute bottom-10 text-center w-full" href="#secoundary">
+        <a className="absolute bottom-10 text-center w-full opacity-0 animate-fadeInUp [animation-delay:_0.7s]" href="#secoundary">
           <p className="text-6 font-thin tracking-[0.2rem]">Meine Projekte</p>
           <Icon name="arrow_downward" />
         </a>
