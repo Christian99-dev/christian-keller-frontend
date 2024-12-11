@@ -54,7 +54,7 @@ const Background: React.FC = () => {
 
       <div 
         className="w-full h-full relative"
-        style={{ filter: 'url(#goo) blur(40px)' }}
+        style={{ filter: 'url(#goo) blur(25px)' }}
       >
         <div
           className="absolute mix-blend-hard-light animate-moveVertical"
