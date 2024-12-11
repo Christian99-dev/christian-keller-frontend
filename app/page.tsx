@@ -1,6 +1,6 @@
 import Background from "@/components/home/Background";
-import Icon from "@/components/shared/Icon";
-import Logo from "@/components/shared/Logo";
+import Icon from "@/components/home/Icon";
+import Logo from "@/components/home/Logo";
 
 export default function Home() {
   return (
