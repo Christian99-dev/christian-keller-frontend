@@ -1,5 +1,5 @@
-import Icon from "@/components/shared/Icon";
-import Logo from "@/components/shared/Logo";
+import Icon from "@/components/home/Icon";
+import Logo from "@/components/home/Logo";
 
 export default function Theme() {
   const colClass = "flex flex-col items-center";
