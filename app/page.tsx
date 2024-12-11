@@ -62,11 +62,6 @@ export default function Home() {
 
       {/** Primary Section */}
       <div id="secoundary" className="h-screen w-full relative z-20">
-        {/** Down arrow */}
-        <a className="absolute top-10 text-center w-full" href="#primary">
-          <Icon name="arrow_upward" />
-          <p className="text-7 font-thin tracking-[0.2rem]">Home</p>
-        </a>
       </div>
     </div>
   );
