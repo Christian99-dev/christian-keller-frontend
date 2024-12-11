@@ -35,7 +35,7 @@ const Background: React.FC = () => {
 
   return (
     <div 
-      className="fixed top-0 left-0 w-full h-screen z-10 overflow-hidden bg-white"
+      className="fixed top-0 left-0 w-full h-screen z-10 overflow-hidden bg-violet-100"
     >
       <svg xmlns="http://www.w3.org/2000/svg" style={{ display: 'none' }}>
         <defs>
@@ -121,13 +121,13 @@ const Background: React.FC = () => {
 
         <div
           ref={interactiveRef}
-          className="absolute mix-blend-hard-light opacity-70"
+          className="absolute mix-blend-hard-light opacity-100"
           style={{
             width: '100%',
             height: '100%',
             top: '-50%',
             left: '-50%',
-            background: 'radial-gradient(circle at center, rgba(241,241,241,0.8) 0%, rgba(241,241,241,0) 50%) no-repeat'
+            background: 'radial-gradient(circle at center, rgba(194, 203, 235, 0.8) 0%, rgba(241,241,241,0) 50%) no-repeat'
           }}
         ></div>
       </div>
